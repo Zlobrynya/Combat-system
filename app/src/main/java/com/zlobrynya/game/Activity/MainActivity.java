@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent newInten = new Intent(MainActivity.this,Map.class);
-        startActivity(newInten);
+        //Intent newInten = new Intent(MainActivity.this,Map.class);
+        //startActivity(newInten);
     }
 
     public void click(View view) {
